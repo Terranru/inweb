@@ -1,0 +1,16 @@
+.intro__text{
+    color: $grey_dark;
+    font-size: 1.2rem;
+}
+.intro__title{
+    color:$black;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.intro__subtitle{
+    color: $grey_dark;
+    &.span{
+        color: $pink;
+    }
+}
