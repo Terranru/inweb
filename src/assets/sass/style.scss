@@ -2,9 +2,10 @@
 
 
 /* Default styles */
-html{
+html {
     font-size: 15px;
 }
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +31,10 @@ body {
 
 
 /* Blocks */
+@import "blocks/page";
 @import "blocks/header";
 @import "blocks/logo";
 @import "blocks/nav";
 @import "blocks/lang";
+@import "blocks/content";
+@import "blocks/footer";
