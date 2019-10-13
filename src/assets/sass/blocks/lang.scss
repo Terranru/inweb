@@ -1,0 +1,21 @@
+.lang{
+    text-align: right;
+    font-weight: 500;
+}
+
+.lang__item{
+    text-decoration: none;
+    color: $black;
+    margin-right: .6rem;
+    text-transform: uppercase;
+
+    &.active{
+        color: $pink;
+    }
+
+}
+
+.header__row{
+    align-items: center;
+}
+
