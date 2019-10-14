@@ -1,0 +1,17 @@
+.btn{
+display: inline-block;
+border-radius: $radius_sm;
+padding: 1rem 2rem;
+text-decoration: none;
+color: $black;
+font-weight: 500;
+line-height: 1.2;
+
+&--pink{
+    border: 2px solid $pink;
+    &:hover{
+        background-color: $pink;
+        color: $white;
+    }
+}
+}
