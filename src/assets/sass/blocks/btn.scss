@@ -6,6 +6,7 @@ text-decoration: none;
 color: $black;
 font-weight: 500;
 line-height: 1.2;
+transition: background .1s linear, color .1s linear;
 
 &--pink{
     border: 2px solid $pink;
