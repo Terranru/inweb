@@ -21,4 +21,10 @@ margin-right: 2rem;
 
     fill: #ababab;
     transition: fill .1s linear;
+    margin-right: .5rem;
+    
+    &--fb{
+        width: 14px;
+        height: 14px;
+    }
 }
