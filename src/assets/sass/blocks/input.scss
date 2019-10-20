@@ -1,0 +1,21 @@
+.form-input{
+    display: block;
+    width: 100%;
+    height: 45px;
+
+    font: inherit;
+    font-weight: 500;
+
+    padding: 1rem 1.8rem;
+
+    border-radius: $radius-sm;
+    border: 1px solid #dddddd;
+
+    &::placeholder{
+        color: #7b7b7b;
+    }
+    &:focus{
+        outline: 0;
+        border-color: $pink;
+    }
+}
